@@ -1,0 +1,14 @@
+/* h1을 빨간색 + 중앙 정렬 */
+h1 {
+    color: red;
+    text-align: center;
+  }
+  
+  /* 페이지 전체를 가운데 정렬하는 wrapper */
+  .page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
